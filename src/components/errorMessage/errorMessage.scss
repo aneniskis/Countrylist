@@ -1,0 +1,19 @@
+$error-msg-color: #5b6d5b;
+.error {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 3rem;
+  color: $error-msg-color;
+  gap: 1.5rem;
+  h3,
+  p {
+    text-align: center;
+  }
+  &__explanation {
+    span {
+      font-weight: 900;
+    }
+  }
+}
