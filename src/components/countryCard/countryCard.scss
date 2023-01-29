@@ -1,0 +1,31 @@
+$card-background-color: #ccffcc;
+$card-info-background-color: #869686;
+
+.countryCard {
+  padding: 0.7rem;
+  background-color: $card-background-color;
+  margin-bottom: 1rem;
+  transition: all 0.1s;
+  cursor: pointer;
+
+  &:hover {
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    scale: 1.01;
+  }
+  &__info {
+    p {
+      display: table;
+      margin-bottom: 0.5rem;
+      line-height: 1.2rem;
+      padding: 0.1rem 1rem;
+      background-color: $card-info-background-color;
+    }
+    p:first-child {
+      letter-spacing: 0.2rem;
+      font-weight: 900;
+    }
+    p:last-child {
+      margin-bottom: 0;
+    }
+  }
+}

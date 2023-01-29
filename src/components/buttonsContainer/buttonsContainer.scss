@@ -1,0 +1,16 @@
+.buttonsContainer {
+  margin: 1.5rem 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  @media (max-width: 600px) {
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+  }
+  &__sorting {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+  }
+}

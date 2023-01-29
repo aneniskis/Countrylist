@@ -1,0 +1,16 @@
+$color-button-background: #8fff8f;
+
+.filter__button {
+  background-color: $color-button-background;
+  padding: 1rem;
+  border-radius: 1.2rem;
+  display: flex;
+  align-items: center;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
+    rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+  select {
+    height: 1.5rem;
+    outline: none;
+    cursor: pointer;
+  }
+}

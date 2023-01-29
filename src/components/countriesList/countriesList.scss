@@ -1,0 +1,35 @@
+$button-bg-color: azure;
+$button-color: #869686;
+$button-color-white: #fff;
+.pagination {
+  margin-top: 3rem;
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  outline: none;
+  gap: 0.1rem;
+
+  .active a {
+    background-color: #869686;
+    color: #fff;
+  }
+  li a {
+    border: 1px solid #869686;
+    padding: 5px 10px;
+    outline: none;
+    border-radius: 0.3rem;
+
+    cursor: pointer;
+  }
+  li a,
+  li span {
+    color: $button-color;
+    background-color: $button-bg-color;
+    transition: all 0.3s;
+  }
+  li a:hover,
+  li span:hover {
+    background-color: $button-color;
+    color: $button-color-white;
+  }
+}

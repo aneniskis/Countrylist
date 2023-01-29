@@ -1,0 +1,23 @@
+$color-button-background: #8fff8f;
+$color-button-background-hover: #6cca6c;
+$color-button: #677067;
+
+.sortingButton {
+  background-color: $color-button-background;
+  color: $color-button;
+  padding: 1rem 2rem;
+  border-radius: 1.2rem;
+  font-size: 1.2rem;
+  font-weight: 700;
+  cursor: pointer;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
+    rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+  transition: all 0.3s;
+
+  &:hover {
+    background-color: $color-button-background-hover;
+  }
+  &:active {
+    scale: 0.95;
+  }
+}
