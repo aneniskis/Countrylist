@@ -1,4 +1,4 @@
-## Available Scripts
+## Task with countries Api
 
 REIZ TECH HOMEWORK FOR FRONTEND DEVELOPER INTERN POSITION
 
