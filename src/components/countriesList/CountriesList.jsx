@@ -9,7 +9,7 @@ export const CountriesList = () => {
   const [pageNumber, setPageNumber] = useState(0);
   const { countries } = useContext(CountriesContext);
 
-  const countryPerPage = 10;
+  const countryPerPage = 8;
   const pagesVisited = pageNumber * countryPerPage;
   const pageCount = Math.ceil(countries.length / countryPerPage);
 
