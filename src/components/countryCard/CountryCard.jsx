@@ -9,7 +9,7 @@ export const CountryCard = ({ country }) => {
         <div className="countryCard__info">
           <p>Country name: {name}</p>
           <p>Region: {region}</p>
-          <p>Arena size: {area}</p>
+          <p>Area size: {area}</p>
         </div>
       </div>
     </>
